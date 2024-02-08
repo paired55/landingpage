@@ -14,13 +14,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 100px;
-    flex-shrink: 0;
+    padding: 0px 300px;
  }
 
  .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
  }
  
  .links {
@@ -42,10 +42,10 @@
 .hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    padding: 24px 200px;
-    flex: 0 1 1;
+    padding: 100px 300px;
+    gap: 30%;
 }
 
 .info {
@@ -53,27 +53,101 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap: 12px;
-    flex: 0 1 1;
 }
 
 .boldinfo {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
-}
-
-.norminfo,
-.boldinfo {
-    max-width: 500px;
+    font-weight: 900;
     margin: 0;
     padding: 0;
 }
 
+.norminfo {
+    width: 500px;
+}
+
 img {
-    width: 250px;
+    width: 200px;
     height: auto;
     border-radius: 10%;
 }
 
+.middle {
+   display: flex;
+   flex-direction: column;
+}
+.things {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 24px 0px;
+}
 
+.thingsHeader {
+   font-size: 36px;
+   color: #1F2937;
+   font-weight: 900;
+}
+
+.pics {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 70px;
+   padding: 24px 0px;
+}
+
+.text {
+   text-align: center;
+   font-weight: 300;
+}
+
+
+.img-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: min-content;
+}
+
+.imgs {
+   width: 200px;
+   height: 200px;
+}
+
+.bottom {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #E5E7EB;
+   padding: 120px 60px
+
+}
+
+.quote {
+   font-size: 36px;
+   font-weight: 300;
+   font-style: italic;
+   margin: 0;
+}
+
+.author {
+   font-weight: 300;
+   font-style: italic;
+   text-align: end;
+}
+
+.footer {
+   background-color: #1F2937;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.copyright {
+   font-weight: 300;
+   color: white;
+   font-style: italic;
+}
