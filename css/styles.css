@@ -13,27 +13,66 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
-    padding: 0px 32px;
+    padding: 24px 100px;
+    flex-shrink: 0;
  }
 
  .logo {
     font-size: 24px;
     color: #F9FAF8;
-    padding: 24px;
-    flex-shrink: 0;
  }
  
  .links {
     display: flex;
     justify-content: space-between;
-    flex-shrink: 1;
-    gap: 12px;
-    padding: 18px;
+    gap: 32px;
+ }
+
+ .headerLinks,
+ .norminfo {
+    font-size: 18px;
+    color: #E5E7EB;
  }
 
  .headerLinks {
-    font-size: 18px;
-    color: #E5E7EB;
     text-decoration: none;
  }
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 270px;
+    gap: 12px;
+}
+
+.boldinfo {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.norminfo,
+.boldinfo {
+    max-width: 500px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border-radius: 10%;
+}
+
+
