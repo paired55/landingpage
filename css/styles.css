@@ -20,14 +20,19 @@ body {
 }
 
 .logo {
-	font-size: 24px;
+	font-size: 28px;
+	font-style: italic;
 	color: #f9faf8;
 	font-weight: 700;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .links {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	align-items: center;
 	gap: 32px;
 }
 
@@ -161,7 +166,6 @@ img {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 30px;
 }
 
 a {
@@ -173,7 +177,7 @@ a {
 }
 
 a:hover {
-	color: red;
+	color: rgb(104, 70, 255);
 }
 
 .projects-container {
@@ -182,4 +186,5 @@ a:hover {
 	justify-content: space-evenly;
 	align-items: center;
 	gap: 10px;
+	margin-bottom: 50px;
 }
